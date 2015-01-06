@@ -1,6 +1,6 @@
 import os.path
 
-DEBUG = {{ pillar["debug"] }}
+DEBUG = {{ __pillar__["debug"] }}
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
